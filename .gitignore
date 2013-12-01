@@ -27,3 +27,9 @@ proguard/
 *.ipr
 *.iws
 .idea/
+
+# for our android project
+proguard-project.txt
+project.properties
+.settings/
+*.swp
