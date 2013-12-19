@@ -6,5 +6,10 @@
     <string name="title_section1">DASHBOARD</string>
     <string name="title_section2">DATA</string>
     <string name="title_section3">RESTORE</string>
+    <string name="call_log_data">Call Log</string>
+    <string name="picture_data">Pictures</string>
+    <string name="backup_button">Backup</string>
+    <string name="restore_button">Restore</string>
+  
 
 </resources>
