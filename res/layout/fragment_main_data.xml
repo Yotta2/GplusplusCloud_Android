@@ -34,5 +34,11 @@
         android:layout_height="wrap_content"
         android:onClick="backup"
         android:text="@string/backup_button" />
+
+    <ProgressBar
+        android1:id="@+id/backupProgressBar"
+        style="?android:attr/progressBarStyleLarge"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content" />
     
 </LinearLayout>
