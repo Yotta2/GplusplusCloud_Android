@@ -343,7 +343,9 @@ public class FileTransfer {
   	    	 try {
   	    	     HttpResponse response = httpclient.execute(httppost);           
   	    	     HttpEntity entity = response.getEntity();
+  	    	//   Log.i("responsecode",response.getStatusLine().getStatusCode());
   	    	     if (response.getStatusLine().getStatusCode() == 200) {
+  	    	    	// Log.i("responsecode",response.getStatusLine().getStatusCode());
   	    	   /* 	 runOnUiThread(new Runnable() {
   	/*                     public void run() {
   	                          
@@ -355,7 +357,7 @@ public class FileTransfer {
   	                     }
   	                 });  */  
   	             }
-
+  	    	   serverResponseCode = response.getStatusLine().getStatusCode();
   	    	     inputStream = entity.getContent();
   	    	     byte[] bytes = IOUtils.toByteArray(inputStream);
   	    	     // json is UTF-8 by default

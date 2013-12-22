@@ -8,6 +8,14 @@
     <string name="title_section3">RESTORE</string>
     <string name="call_log_data">Call Log</string>
     <string name="picture_data">Pictures</string>
+    <string name="video_data">Videos</string>
+    <string name="music_data">Music</string>
+    <string name="sms_data">SMS</string>
+    <string name="call_log_restore">Call Log</string>
+    <string name="picture_restore">Pictures</string>
+    <string name="video_restore">Videos</string>
+    <string name="music_restore">Music</string>
+    <string name="sms_restore">SMS</string>
     <string name="backup_button">Backup</string>
     <string name="restore_button">Restore</string>
     <string name="hello_world">Hello world!</string>

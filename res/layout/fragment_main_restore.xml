@@ -15,19 +15,39 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
      <CheckBox
-        android:id="@+id/call_log_data"
+        android:id="@+id/call_log_restore"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/call_log_data" />
  
     <CheckBox
-        android:id="@+id/picture_data"
+        android:id="@+id/picture_restore"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/picture_data"
         android:checked="false" />
  
+    <CheckBox
+        android:id="@+id/video_restore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/video_restore"
+        android:checked="false" />
+    
+    <CheckBox
+        android:id="@+id/music_restore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/music_restore"
+        android:checked="false" />
  
+    <CheckBox
+        android:id="@+id/sms_restore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sms_restore"
+        android:checked="false" />
+    
     <Button
         android:id="@+id/restore_button"
         android:layout_width="wrap_content"
